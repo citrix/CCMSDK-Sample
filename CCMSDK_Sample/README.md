@@ -7,7 +7,7 @@ Getting Started
 The easiest way to get started using these scripts is to clone the repository to your local machine.
 As with all scripts you download, review the script you are interested in prior to running it so you understand the impact to your environment.
 
-git clone https://github.com/citrix/CCMSDKSample.git
+git clone https://github.com/citrix/CCMSDK-Sample.git
 
 
 Prerequisites
