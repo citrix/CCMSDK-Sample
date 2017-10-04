@@ -1,4 +1,4 @@
-﻿# *************************************************************************
+﻿# /*************************************************************************
 # *
 # * THIS SAMPLE CODE IS PROVIDED "AS IS" AND ANY EXPRESS OR IMPLIED
 # * WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
@@ -30,6 +30,7 @@ function CCMInitialize{
         throw "CCM Initialization Failed"
     }
     Write-Host "CCM Initialization successful"  
+    return $initialize
 }
 
 <#
@@ -885,7 +886,7 @@ function CCMTerminateRSApplication{
     Write-Host "CCMTerminateRSApplication Successfull"
 }
 
-$source = ".\CCMCSharpModule.cs"
+$source = "CCMCSharpModule.cs"
 try
 {
 Add-Type -Path $source 
@@ -895,4 +896,4 @@ catch
     throw "Unable to load the C# file"
 }
  
-CCMInitialize
+$initialize = CCMInitialize

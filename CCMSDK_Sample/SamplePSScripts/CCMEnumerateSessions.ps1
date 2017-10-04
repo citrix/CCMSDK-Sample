@@ -6,6 +6,8 @@
 #>
 
 
-Import-Module ..\CCMPowershellModule
+cd ..
+
+Import-Module ".\CCMPowershellModule"
 
 CCMEnumerateSessions

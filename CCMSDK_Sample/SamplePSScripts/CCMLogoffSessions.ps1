@@ -5,7 +5,8 @@
         This script uses CCM SDK API to logoff all the running sessions on Client.
 #>
 
+cd ..
 
-Import-Module ..\CCMPowershellModule
+Import-Module .\CCMPowershellModule
 
 CCMLogoffAllSessions

@@ -5,8 +5,9 @@
         This script uses CCM SDK API to disconnect all the running sessions on Client.
 #>
 
+cd ..
 
-Import-Module ..\CCMPowershellModule
+Import-Module .\CCMPowershellModule
 
 CCMDisconnectAllSessions
 

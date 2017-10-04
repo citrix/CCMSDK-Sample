@@ -8,6 +8,8 @@ param(
     [parameter(Mandatory=$true)][string]$FilePath
 )
 
-Import-Module ..\CCMPowershellModule
+cd ..
+
+Import-Module .\CCMPowershellModule
 
 CCMLaunchApplication -NameValuePair @{'ICA_FILE_PATH'="$FilePath"}
