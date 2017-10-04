@@ -1,16 +1,17 @@
-Contributing
+# Contributing
 
 When contributing to this repository, please first discuss the change you wish to make via issue, email, or any other method with the owners of this repository before making a change.
 
 Please note we have a code of conduct, please follow it in all your interactions with the project.
 
-Pull Request Process
+# Pull Request Process
 
 Each script(s) should be in its own sub-directory under the relevant product directory and contain a README.md, LICENSE.MD and script files. For example
   	CCMPowershellModule
   		CCMPowershellModule.psm1
     	README.md
         LICENSE.md
+    SampleCCMScripts
     CCMCSharpModule.cs
 
 Comment changes to scripts in the appropiate location within the affected script.
@@ -19,11 +20,11 @@ Update the README.md with details of changes if changes affect input, output par
 Increase the version numbers in any affected script and the README.md to the new version that this Pull Request would represent. The versioning scheme we use is SemVer.
 Code of Conduct
 
-Our Pledge
+# Our Pledge
 
 In the interest of fostering an open and welcoming environment, we as contributors and maintainers pledge to making participation in our project and our community a harassment-free experience for everyone, regardless of age, body size, disability, ethnicity, gender identity and expression, level of experience, nationality, personal appearance, race, religion, or sexual identity and orientation.
 
-Our Standards
+# Our Standards
 
 Examples of behavior that contributes to creating a positive environment include:
 
@@ -45,10 +46,10 @@ Project maintainers are responsible for clarifying the standards of acceptable b
 
 Project maintainers have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned to this Code of Conduct, or to ban temporarily or permanently any contributor for other behaviors that they deem inappropriate, threatening, offensive, or harmful.
 
-Scope
+# Scope
 
 This Code of Conduct applies both within project spaces and in public spaces when an individual is representing the project or its community. Examples of representing a project or community include using an official project e-mail address, posting via an official social media account, or acting as an appointed representative at an online or offline event. Representation of a project may be further defined and clarified by project maintainers.
 
-Attribution
+# Attribution
 
 This Code of Conduct is adapted from the Contributor Covenant, version 1.4, available at http://contributor-covenant.org/version/1/4
