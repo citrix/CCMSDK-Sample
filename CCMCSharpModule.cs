@@ -552,6 +552,9 @@ namespace CCMSDKAPI
 
         [DllImport(@"C:\\Program Files (x86)\\Citrix\\ICA Client\\CCMSDK64.dll", CharSet = CharSet.Auto, EntryPoint = "CCMEnumerateRSApplications", CallingConvention = CallingConvention.StdCall, SetLastError = true)]
         public static extern int CCMEnumerateRSApplications(ref Int32 pCount, ref IntPtr ppICASessions);
+
+        [DllImport(@"C:\\Program Files (x86)\\Citrix\\ICA Client\\CCMSDK64.dll", CharSet = CharSet.Auto, EntryPoint = "CCMLaunchPublishedApplication", CallingConvention = CallingConvention.StdCall, SetLastError = true)]
+        public static extern int CCMLaunchPublishedApplication(IntPtr hSession, [InAttribute()] [MarshalAsAttribute(UnmanagedType.LPStr)] string pAppName, [InAttribute()] [MarshalAsAttribute(UnmanagedType.LPStr)] string pArguments);
     }
 
     public class CCM
